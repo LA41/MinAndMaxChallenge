@@ -10,7 +10,6 @@ public class MinAndMaxChallenge {
             boolean isNextNumber = scanner.hasNextInt();
             if (isNextNumber) {
                 int number = scanner.nextInt();
-
                 if (number > max)
                     max = number;
                 if (number < min)
